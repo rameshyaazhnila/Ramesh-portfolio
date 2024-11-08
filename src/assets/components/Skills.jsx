@@ -2,6 +2,7 @@ import React from 'react'
 import Techicons from '../icons/Techicons'
 
 const Skills = () => {
+  
   return (
     <div className='text-green-400 w-full my-4 '>
         <div className='flex flex-col justify-center items-center mt-8'>

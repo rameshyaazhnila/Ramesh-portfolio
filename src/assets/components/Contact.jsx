@@ -53,7 +53,7 @@
 
 // export default Contact
 
-import { Loader } from 'lucide-react';
+
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
@@ -89,7 +89,7 @@ const Contact = () => {
     <motion.div
       className='flex flex-col justify-center items-center my-5'
       whileInView={{ opacity: 1, scale: 1}}
-      initial={{ opacity: 0, scale: 0.5}}
+      initial={{ opacity: 0, scale: 0.8}}
       transition={{ duration: 1 }}
     >
       <h1 className='text-green-800 p-3 font-semibold text-3xl'>Contact Us</h1>
