@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
-import { X, Minus, Menu } from 'lucide-react';
+import { X,Menu } from 'lucide-react';
 
 
 
