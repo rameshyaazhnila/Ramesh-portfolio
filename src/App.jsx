@@ -5,6 +5,7 @@ import AboutSection from './assets/components/AboutSection';
 import Skills from './assets/components/Skills';
 import Myservice from './assets/components/Myservice';
 import Contact from './assets/components/Contact';
+import Footer from './assets/components/Footer';
 
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
       </section>
       <section id="contact" className='overflow-hidden w-full py-5'>
         <Contact/>
+      </section>
+      <section className='overflow-hidden w-full bg-green-800'>
+        <Footer/>
       </section>
     </div>
   );
