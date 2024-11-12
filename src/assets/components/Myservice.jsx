@@ -10,7 +10,7 @@ const Myservice = () => {
         AOS.init({
           duration: 1000, 
           once: false, 
-          offset: 100, 
+          offset: 60, 
         });
       }, []);
   return (

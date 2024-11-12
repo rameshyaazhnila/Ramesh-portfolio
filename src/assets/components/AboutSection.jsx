@@ -5,12 +5,12 @@ const AboutSection = () => {
   return (
     <div className='flex flex-col sm:flex-row justify-center items-center pb-3'>
       <motion.div
-        className='h-[300px] lg:h-[500px] w-[300px] lg:w-[600px] min-w-[300px] overflow-hidden'
+        className='h-[270px] lg:h-[500px] lg:w-[600px] min-w-[300px] overflow-hidden'
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: 50 }}
         transition={{ duration: 1 }}
       >
-        <img src="/ramesh.jpg" alt="Logo" className='h-full w-full object-cover rounded-full lg:rounded-none' />
+        <img src="/web.jpeg" alt="Logo" className='py-9 lg:py-28 object-cover w-full h-full' />
       </motion.div>
 
       <div className='flex flex-col item-start justify-center space-y-3'>
@@ -29,9 +29,7 @@ const AboutSection = () => {
           initial={{ opacity: 0, y: 50 }}
           transition={{ duration: 1 }}
         >
-          <p className='text-white text-start px-5 sm:px-8 md:text-xl'>
-            Lorem ipsum, dolor si adipisicing elit. Voluptatem iusto porro, consectetur non nihil ad corporis eaque est quia optio minus quis consequatur, totam consectetur voluptatibus deserunt nemo natus vel nesciunt corrupti suscipit.
-          </p>
+          <p className='text-white text-start px-5 sm:px-8 md:text-xl'>A freelance web designer with a passion for creating meaningful digital solutions. I specialize in developing responsive, user-friendly websites that align perfectly with your business goals and leave a lasting impression on your audience.</p>
           <div className='flex gap-3 px-5 sm:px-8 flex-col'>
           <h1 className='text-white sm:text-xl'>Experience : <span className='text-green-500'>5 years</span></h1>
           <h1 className='text-white sm:text-xl'>Speciality : <span className='text-green-500'>Web Designing & Developement</span></h1>

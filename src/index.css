@@ -20,9 +20,19 @@
     "wdth" 100,
     "GRAD" 0;
 }
-.filters{
-  
-  background-color:transparent;
+.filters {
+  background-color: transparent;
   backdrop-filter: blur(30px);
+  animation-name: ramesh;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
 }
 
+@keyframes ramesh {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

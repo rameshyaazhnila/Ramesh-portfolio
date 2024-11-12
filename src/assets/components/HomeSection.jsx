@@ -26,8 +26,8 @@ const HomeSection = () => {
                /></span></p>
        </div>
        <div className='max-w-[550px] md:max-w-[750px] flex flex-col justify-center items-center sm:items-start space-y-5'>
-        <p className='text-white text-start px-5 sm:px-8 md:text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem iusto porro, consectetur non nihil ad corporis eaque est qquia optio minus quis consequatur, totam consectetur voluptatibus deserunt nemo natus vel nesciunt corrupti suscipit</p>
-        <div className='flex gap-5 px-5 sm:px-8 relative'>
+        <p className='text-white text-start px-5 sm:px-8 md:text-xl'>A freelance web designer dedicated to crafting stunning websites that captivate audiences and elevate brands. Whether you need a responsive design, an e-commerce solution, or a complete website revamp, I’m here to transform your ideas into impactful digital experiences.</p>
+        <div className='flex gap-5 sm:px-8 relative'>
           <a href="tel:+916380499070" target="_blank" rel="noopener noreferrer"><FiPhone size={35} className='p-2 bg-green-500 text-white hover:border-4 hover:border-green-700 rounded-full size-12'/></a>
           <SocialIcon url="https://wa.me/+916380499070" className='hover:border-4 hover:border-green-700 rounded-full'/>
           <SocialIcon url="mailto:rameshyaazhnila@gmail.com" network="email" className="hover:border-4 hover:border-green-700 rounded-full"/>
