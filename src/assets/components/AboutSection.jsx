@@ -31,7 +31,7 @@ const AboutSection = () => {
         >
           <p className='text-white text-start px-5 sm:px-8 md:text-xl'>A freelance web designer with a passion for creating meaningful digital solutions. I specialize in developing responsive, user-friendly websites that align perfectly with your business goals and leave a lasting impression on your audience.</p>
           <div className='flex gap-3 px-5 sm:px-8 flex-col'>
-          <h1 className='text-white sm:text-xl'>Experience : <span className='text-green-500'>5 years</span></h1>
+          {/* <h1 className='text-white sm:text-xl'>Experience : <span className='text-green-500'>5 years</span></h1> */}
           <h1 className='text-white sm:text-xl'>Speciality : <span className='text-green-500'>Web Designing & Developement</span></h1>
           <h1 className='text-white sm:text-xl'>Address : <span className='text-green-500'>pollachi, india</span></h1>
           <h1 className='text-white sm:text-xl'>Email : <span className='text-green-500'>Rameshyaazhnila@gmail.com</span></h1>
