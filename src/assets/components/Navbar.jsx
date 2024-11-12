@@ -159,9 +159,9 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-[100%] h-[30px] m-0 p-4 top-0 left-0 z-50">
-      <div className="flex justify-between py-1 items-center gap-5 filters">
-        <h1 className="text-blue-500 text-[28px] p-0 font-bold">
-          Luckily <span className="text-green-300 text-[30px]">Born</span>
+      <div className="flex justify-between py-1 items-center gap-5 filters rounded-2xl px-1">
+        <h1 className="text-blue-500 text-[28px] p-0 font-bold bg-transparent">
+          Luckily <span className="text-green-300 text-[30px] bg-transparent">Born</span>
         </h1>
         <div className="hidden sm:flex justify-center items-center pr-6 md:pr-20 space-x-6 lg:text-xl">
           <Link 
