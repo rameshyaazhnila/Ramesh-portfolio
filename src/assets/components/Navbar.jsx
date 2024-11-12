@@ -163,12 +163,12 @@ const Navbar = () => {
         <h1 className="text-blue-500 text-[28px] p-0 font-bold bg-transparent">
           Luckily <span className="text-green-300 text-[30px] bg-transparent">Born</span>
         </h1>
-        <div className="hidden sm:flex justify-center items-center pr-6 md:pr-20 space-x-6 lg:text-xl">
+        <div className="hidden sm:flex justify-center items-center pr-6 md:pr-20 space-x-6 lg:text-xl bg-transparent">
           <Link 
             to="home" 
             smooth={true} 
             duration={500} 
-            className="text-white relative hover:text-green-300 cursor-pointer group hover:shadow-lg transition-all"
+            className="text-white relative hover:text-green-300 cursor-pointer group hover:shadow-lg transition-all bg-transparent"
           >
             Home<span 
               className="absolute bottom-0 left-0 w-0 h-[2px] bg-green-300 transition-all duration-300 group-hover:w-full"
@@ -178,7 +178,7 @@ const Navbar = () => {
             to="about" 
             smooth={true} 
             duration={500} 
-            className="text-white relative hover:text-green-300 cursor-pointer group hover:shadow-lg transition-all"
+            className="text-white relative hover:text-green-300 cursor-pointer group hover:shadow-lg transition-all bg-transparent"
           >
             About<span 
               className="absolute bottom-0 left-0 w-0 h-[2px] bg-green-300 transition-all duration-300 group-hover:w-full"
@@ -188,7 +188,7 @@ const Navbar = () => {
             to="skills" 
             smooth={true} 
             duration={500} 
-            className="text-white relative hover:text-green-300 cursor-pointer group hover:shadow-lg transition-all"
+            className="text-white relative hover:text-green-300 cursor-pointer group hover:shadow-lg transition-all bg-transparent"
           >
             Skills<span 
               className="absolute bottom-0 left-0 w-0 h-[2px] bg-green-300 transition-all duration-300 group-hover:w-full"
@@ -198,7 +198,7 @@ const Navbar = () => {
             to="service" 
             smooth={true} 
             duration={500} 
-            className="text-white relative hover:text-green-300 cursor-pointer group hover:shadow-lg transition-all"
+            className="text-white relative hover:text-green-300 cursor-pointer group hover:shadow-lg transition-all bg-transparent"
           >
             Service<span 
               className="absolute bottom-0 left-0 w-0 h-[2px] bg-green-300 transition-all duration-300 group-hover:w-full"
@@ -208,7 +208,7 @@ const Navbar = () => {
             to="contact" 
             smooth={true} 
             duration={500} 
-            className="text-white relative hover:text-green-300 cursor-pointer group hover:shadow-lg transition-all"
+            className="text-white relative hover:text-green-300 cursor-pointer group hover:shadow-lg transition- bg-transparent"
           >
             Contact<span 
               className="absolute bottom-0 left-0 w-0 h-[2px] bg-green-300 transition-all duration-300 group-hover:w-full"
